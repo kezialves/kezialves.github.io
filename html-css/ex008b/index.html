@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Indica que este documento é em HTML5 -->
+<html lang="pt-br"> <!-- Seta a linguagem -->
+
+<!-- Cabeça -->
+<head>
+    <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
+    <title>Outras Formatações</title><!-- Título do site -->
+</head>
+
+<!-- Corpo -->
+<body>
+    <h1>Outras Formatações</h1>
+    <hr> <!-- Coloca uma linha horizontal -->
+
+    <!-- Código-fonte -->
+
+    <h2>Código-fonte</h2>
+
+    <p>O comando <code>document.getElementById('teste')</code> é escrito
+        em JavaScript, e esse efeito de fonte é feito usando a tag
+        &lt;code&gt.</p>
+
+    <p>Para colocar um código indentado, basta usar a tag &lt;pre&gt.</p>
+
+    <pre>
+        <code>
+int main() {
+
+    int number;
+    scanf("%d", &number);
+
+    if(number % 2 == 0)
+        printf("O número é par.\n");
+
+    else
+        printf("O número é ímpar.\n");
+    
+    return 0;
+}
+        </code>
+    </pre>
+
+    <hr> <!-- Coloca uma linha horizontal -->
+
+    <!-- Citação -->
+
+    <h2>Citação</h2>
+
+    <p>Para destacar uma citação, podemos usar a tag &lt;q&gt.</p>
+
+    <p><q>O que sabemos é uma gota, o que ignoramos é um oceano</q></p>
+    <p><em>- Isaac Newton</em></p>
+
+    <hr> <!-- Coloca uma linha horizontal -->
+
+    <!-- Citação completa -->
+
+    <h2>Citação completa</h2>
+
+    <p>Para destacar uma citação completa, podemos usar a tag &lt;blockquote cite="fonte"&gt.</p>
+
+    <blockquote cite="Harry Potter e o Cálice de Fogo">Tudo que Harry vira na Penseira,
+        e quase tudo que Dumbledore lhe contara e mostrara depois, ele agora estava
+        dividindo com Rony e Hermione – e, é claro, com Sirius, a quem Harry enviara
+        uma coruja assim que saíra do escritório do diretor. Mais uma vez os três
+        garotos ficaram acordados até tarde na sala comunal, discutindo os
+        acontecimentos até que a cabeça de Harry começou a rodar, até que ele
+        compreendeu o que Dumbledore quisera dizer quando falara em uma cabeça
+        ficar tão cheia de pensamentos que era um alívio esvaziá-la com um sifão.</blockquote>
+    <p><em>Harry Potter e o Cálice de Fogo</em></p>
+
+    <hr> <!-- Coloca uma linha horizontal -->
+
+    <!-- Abreviação -->
+
+    <h2>Abreviação</h2>
+
+    <p>Para destacar o significado de uma abreviação, basta usar a tag &lt;abbr&gt.</p>
+
+    <p>Eu quero ler <abbr title="A Court of Thorns and Roses">ACOTAR</abbr>.</p>
+
+    <hr> <!-- Coloca uma linha horizontal -->
+
+    <!-- Texto invertido -->
+
+    <h2>Texto invertido</h2>
+
+    <p>Para criar um texto invertido, usamos a tag &lt;bdo&gt.</p>
+
+    <p><bdo dir="rtl">Socorram-me, subi no ônibus em Marrocos.</bdo></p>
+</body>
+</html>

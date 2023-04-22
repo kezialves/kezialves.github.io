@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+    background: #203da3;
+    margin: 0px;
+    min-height: 1200px;
+}
+
+.container {
+    background:#040920;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+    /* box-shadow: 6px 6px 10px rgb(255, 182, 193); */
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    min-width: 400px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.title {
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    margin-right: 300px;
+}
+
+#profile-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 400px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    /* box-shadow: 0 0 15px #ffb6c1; */
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.title h3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.logos img {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    align-self: flex-end;
+    position: relative;
+    top:-140px;
+}
+
+#logo:hover {
+    filter: invert(100%);
+}
+
+.logos {
+    align-items: right;
+    justify-content: flex-end;
+}
+
+.exercicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(250, 250, 250);
+    list-style-type: none;
+    background: linear-gradient(70deg, #203da3 15.26%, #7cc2cc 90%) fixed;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    /* box-shadow: 6px 6px 10px rgb(255, 182, 193); */
+}
+
+#list-title {
+    position: static;
+    float:right;
+    padding-left: 0px;
+}
+.exercicios ul {
+    font-size: 30px;
+}
+
+.exercicios li {
+    width: 600px;
+    margin:auto;
+    font-size: 25px;
+}
+
+.exercicios li:hover {
+    color: #7cc2cc;
+}
+
+#space {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
