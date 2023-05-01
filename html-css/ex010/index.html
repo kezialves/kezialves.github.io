@@ -1,44 +1,63 @@
 <!DOCTYPE html> <!-- Indica que este documento é em HTML5 -->
 <html lang="pt-br"> <!-- Seta a linguagem -->
 
-<!-- Cabeça -->
-<head>
-    <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
-    <title>Links</title><!-- Título do site -->
-</head>
+    <!-- Cabeça -->
+    <head>
+        <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
+        <link rel="shortcut icon" href="../../images/html-5.ico" type="image/x-icon">
+        <title>Links</title><!-- Título do site -->
+    </head>
 
-<!-- Corpo -->
-<body>
-    <h1>Links</h1>
-    <hr> <!-- Coloca uma linha horizontal -->
+    <!-- Corpo -->
+    <body>
+        <h1>Links</h1>
+        <hr> <!-- Coloca uma linha horizontal -->
 
-    <!-- Links externos -->
+        <!-- Links externos -->
 
-    <h2>Links externos</h2>
+        <h2>Links externos</h2>
 
-    <!-- Links externos levam o usuário a outro site. Para isso, basta usar a tag
-        &lt;a href=""&gt. -->
+        <!-- Links externos levam o usuário a outro site. Para isso, basta usar a tag
+            &lt;a href=""&gt. -->
 
-    <!-- Para abrir o link em uma nova aba, basta colocar
-        target="_blank" rel="external -->
+        <!-- Para abrir o link em uma nova aba, basta colocar
+            target="_blank" rel="external -->
 
-    <p>Você pode ver o meu <a href="https://github.com/kezialves"> GitHub</a>.</p>
+        <p>Você pode ver o meu <a href="https://github.com/kezialves"> GitHub</a>.</p>
 
-    <p>Clique <a href="https://youtu.be/nYjqn9ztv9g" target="_blank" rel="external">
-        aqui</a> para ter uma surpresa.</p>
+        <p>Clique <a href="https://youtu.be/nYjqn9ztv9g" target="_blank" rel="external">
+            aqui</a> para ter uma surpresa.</p>
 
-    <!-- Links internos -->
+        <!-- Links internos -->
 
-    <h2>Links internos</h2>
+        <h2>Links internos</h2>
 
-    <!-- Links internos levam o usuário a outro lugar do mesmo site. Para isso,
-        basta usar a tag &lt;a href=""&gt. -->
+        <!-- Links internos levam o usuário a outro lugar do mesmo site. Para isso,
+            basta usar a tag &lt;a href=""&gt. -->
 
-    <p>Consulte o oráculo <a href="pg002.html" target="_self" rel="next">
-        aqui</a>!</p>
+        <p>Consulte o oráculo <a href="pg002.html" target="_self" rel="next">
+            aqui</a>!</p>
 
-    <p>Conheça o <a href="rick/pg003.html" target="_self" rel="next">Tio Rick.</a></p>
-</body>
+        <p>Conheça o <a href="rick/pg003.html" target="_self" rel="next">Tio Rick.</a></p>
+
+        <!-- Links para download -->
+
+        <h2>Links internos</h2>
+
+        <!-- Links que realizam o download do item linkado. Para isso,
+            basta usar a tag &lt;a href="" download="" type=""&gt. -->
+
+        <!-- https://www.iana.org/assignments/media-types/media-types.xhtml -->
+
+        <ul>
+            <li>Baixar meu <a href="atestado/atestado_matricula.pdf"
+                download="atestado_matricula.pdf"
+                type="application/pdf">atestado de matrícula.</a> em PDF</li>
+            <li><a href="atestado/atestado_matricula.zip"
+                download="atestado_matricula.zip"
+                type="application/zip">Atestado</a> compactado em ZIP.</li>
+        </ul>
+    </body>
 </html>

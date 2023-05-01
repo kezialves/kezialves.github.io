@@ -1,0 +1,73 @@
+<!DOCTYPE html> <!-- Indica que este documento é em HTML5 -->
+<html lang="pt-br"> <!-- Seta a linguagem -->
+
+    <!-- Cabeça -->
+    <head>
+        <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
+        <link rel="shortcut icon" href="../../images/html-5.ico" type="image/x-icon">
+        <title>Vídeos em HTML</title><!-- Título do site -->
+    </head>
+
+    <!-- Corpo -->
+    <body>
+        <h1>Vídeos</h1>
+        <hr> <!-- Coloca uma linha horizontal -->
+
+        <!-- m4v, mp4, webm e ogv -->
+
+        <!-- Vídeo interno -->
+
+        <h2>Vídeo interno</h2>
+
+        <p>Keiko sendo vidente:</p>
+
+        <!-- Hospedar um vídeo interno, da seguinte forma, pode ser muito custoso -->
+
+        <!--
+        <video width="" poster="" controls>
+            <source src="" type="">
+        </video>
+        -->
+
+        <video width="560" poster="../../images/vidente.png" controls autoplay loop>
+            <source src="../../videos/voltou.mp4" type="video/mp4">
+            <source src="../../videos/voltou.m4v" type="video/mp4">
+            <source src="../../videos/voltou.webm" type="video/webm">
+            <source src="../../videos/voltou.ogv" type="video/ogg">
+
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeos.
+            </p>
+        </video>
+
+        <!-- Vídeo do YouTube -->
+
+        <h2>Vídeo do YouTube</h2>
+
+        <p>Receita de hambúrguer de siri:</p>
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/jQVrhtoacLY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+
+        <!-- Vídeo do Vimeo -->
+
+        <h2>Vídeo do Vimeo</h2>
+
+        <p>Animação legalzinha:</p>
+
+        <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&color=ffffff&portrait=0"
+            width="560" height="315" frameborder="0" allow="autoplay; fullscreen;
+            picture-in-picture" allowfullscreen>
+        </iframe>
+
+        <p><a href="https://vimeo.com/197093965">Reel 2016</a> from
+            <a href="https://vimeo.com/wabbla">Alvise Zennaro</a> on
+            <a href="https://vimeo.com">Vimeo</a>.
+        </p>
+    </body>
+</html>

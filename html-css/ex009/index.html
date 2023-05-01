@@ -1,47 +1,120 @@
 <!DOCTYPE html> <!-- Indica que este documento é em HTML5 -->
 <html lang="pt-br"> <!-- Seta a linguagem -->
 
-<!-- Cabeça -->
-<head>
-    <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
-    <title>Listas</title><!-- Título do site -->
-</head>
+    <!-- Cabeça -->
+    <head>
+        <meta charset="UTF-8"> <!-- Seta o conjunto de caracteres -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o Internet Explorer a renderizar o site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site ocupar 100% da área do corpo -->
+        <link rel="shortcut icon" href="../../images/html-5.ico" type="image/x-icon">
+        <title>Listas</title><!-- Título do site -->
+    </head>
 
-<!-- Corpo -->
-<body>
-    <h1>Listas</h1>
-    <hr> <!-- Coloca uma linha horizontal -->
+    <!-- Corpo -->
+    <body>
+        <h1>Listas</h1>
+        <hr> <!-- Coloca uma linha horizontal -->
 
-    <!-- Lista Ordenada -->
+        <!-- Lista Ordenada -->
 
-    <h2>Lista Ordenada</h2>
+        <h2>Lista Ordenada</h2>
 
-    <p>Para criar uma lista ordenada, basta usar a tag &lt;ol&gt.</p>
+        <p>Para criar uma lista ordenada, basta usar a tag &lt;ol&gt.</p>
 
-    <ol type="1" start="1">
-        <li>Castiel</li>
-        <li>Ken</li>
-        <li>Nath</li>
-        <li>Armin</li>
-        <li>Lysandre</li>
-    </ol>
+        <p>Melhores paqueras de Amor Doce High School Life:</p>
 
-    <!-- Lista Não Ordenada -->
+        <ol type="1" start="1">
+            <li>Castiel</li>
+            <li>Ken</li>
+            <li>Nath</li>
+            <li>Armin</li>
+            <li>Lysandre</li>
+        </ol>
 
-    <h2>Lista Não Ordenada</h2>
+        <!-- Lista Não Ordenada -->
 
-    <p>Para criar uma lista não ordenada, basta usar a tag &lt;ul&gt.</p>
+        <h2>Lista Não Ordenada</h2>
 
-    <ul type="disc"> <!-- disc, circle ou square -->
-        <li>Vladimir</li>
-        <li>Beliath</li>
-        <li>Ivan</li>
-        <li>Aaron</li>
-        <li>Ethan</li>
-        <li>Raphael</li>
-        <li>Neil</li>
-    </ul>
-</body>
+        <p>Para criar uma lista não ordenada, basta usar a tag &lt;ul&gt.</p>
+
+        <p>Todos os vampiros de Moonlight Lovers:</p>
+
+        <ul type="disc"> <!-- disc, circle ou square -->
+            <li>Vladimir</li>
+            <li>Beliath</li>
+            <li>Ivan</li>
+            <li>Aaron</li>
+            <li>Ethan</li>
+            <li>Raphael</li>
+            <li>Neil</li>
+        </ul>
+
+        <!-- Listas Mistas -->
+
+        <h2>Personagens favoritos</h2>
+
+        <ol type="1" start="1">
+            <li>Chainsaw Man:</li>
+            <ol type="a">
+                <li>Aki Hayakawa;</li>
+                <li>Power;</li>
+                <li>Anjo;</li>
+                <li>Denji;</li>
+                <li>Kobeni Higashiyama;</li>
+                <li>Makima.</li>
+            </ol>
+            <li>Jujutsu Kaisen:</li>
+            <ol type="a">
+                <li>Satoru Gojo;</li>
+                <li>Yuji Itadori;</li>
+                <li>Megumi Fushiguro;</li>
+                <li>Maki Zenin;</li>
+                <li>Nobara Kugisaki;</li>
+                <li>Kento Nanami.</li>
+            </ol>
+        </ol>
+        
+        <h2>Meus mangás</h2>
+
+        <ul type="disc"> <!-- disc, circle ou square -->
+            <li>Terminados:</li>
+            <ol type="1" start="1">
+                <li>Kimetsu no Yaiba;</li>
+                <li>Gokurakugai Sanban-doori no Ken;</li>
+                <li>Another;</li>
+                <ul type="disc">
+                    <li>Another Clássico;</li>
+                    <li>Another 0.</li>
+                </ul>
+                <li>Amar e ser Amado.</li>
+            </ol>
+            <li>Em lançamento:</li>
+            <ol type="1" start="1">
+                <li>Chainsaw Man;</li>
+                <li>One Piece;</li>
+                <li>Jujutsu Kaisen.</li>
+            </ol>
+        </ul>
+
+        <!-- Lista de Definições -->
+
+        <h2>Lista de Definições</h2>
+
+        <p>Para criar uma lista de definições, basta usar a tag &lt;dt&gt para o termo
+            e a tag &lt;dd&gt para sua descrição.
+        </p>
+
+        <dt>Kon do Aki</dt>
+        <dd>Aki Hayakawa tinha um contrato com o Fox Devil. Em troca de alimentá-lo com
+            uma parte de seu corpo, Aki poderia usar seu poder em combate levantando a
+            mão e dizendo a palavra “Kon”, fazendo com que a cabeça do Fox Devil
+            parecesse morder instantaneamente o corpo do alvo.</dd>
+
+        <dt>Kon do Megumi</dt>
+        <dd>A Energia Amaldiçoada de Megumi concede a ele a possibilidade de usar a
+            técnica das Dez Sombras. Ela permite que Megumi crie Shikigamis a partir
+            das sombras, entre eles, os Gyokuken (Cães Divinos) e o Gyokuken - Kon
+            (Cão Divino: Totalidade), que é uma versão do Cão Divino preto após ter
+            absorvido a energia amaldiçoada do cão branco.</dd>
+    </body>
 </html>

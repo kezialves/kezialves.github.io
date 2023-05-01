@@ -1,0 +1,28 @@
+@charset "UTF-8"; /* Seta o conjunto de caracteres */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
